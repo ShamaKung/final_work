@@ -6,13 +6,14 @@ void SecondArray(string[] strArray, string[] strArrayNew)
     int count = 0;
     for (int i = 0; i < strArray.Length; i++)
     {
-    if(strArray[i].Length <= 3)
+        if(strArray[i].Length <= 3)
         {
-        strArrayNew[count] = strArray[i];
-        count++;
+            strArrayNew[count] = strArray[i];
+            count++;
         }
     }
 }
+
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
